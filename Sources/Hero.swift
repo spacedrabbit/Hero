@@ -345,6 +345,7 @@ extension Hero: UIViewControllerAnimatedTransitioning {
 
   public func animationEnded(_ transitionCompleted: Bool) {
     isAnimating = !transitionCompleted
+    // this is a comment
   }
 }
 
